@@ -1,6 +1,6 @@
-name: gradle files
-        run: |
-          set -euo pipefail
+name: gradle files;
+       run:   
+       set -euo pipefail
           cat > settings.gradle.kts <<'EOF_S'
           pluginManagement {
               repositories { google(); mavenCentral(); gradlePluginPortal() }
