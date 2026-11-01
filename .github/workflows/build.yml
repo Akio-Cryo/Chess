@@ -1,5 +1,5 @@
 - name: gradle files
-        run: 
+        run:
           set -euo pipefail
           cat > settings.gradle.kts <<'EOF_S'
           pluginManagement {
